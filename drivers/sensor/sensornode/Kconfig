@@ -1,0 +1,11 @@
+# Copyright (c) 2022 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config JM101
+	bool "sensor node boool"
+	default y
+	select GPIO
+	select SERIAL
+	select UART_INTERRUPT_DRIVEN
+	help
+	  sensornode .
